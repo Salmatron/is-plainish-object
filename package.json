@@ -1,0 +1,19 @@
+{
+  "name": "@salmatron/is-plainish-object",
+  "version": "0.1.0",
+  "description": "",
+  "main": "is-plainish-object.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salmatron/is-plainish-object.git"
+  },
+  "author": "salmatron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Salmatron/is-plainish-object/issues"
+  },
+  "homepage": "https://github.com/Salmatron/is-plainish-object#readme"
+}
