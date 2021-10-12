@@ -1,6 +1,6 @@
 {
   "name": "@salmatron/is-plainish-object",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "type": "module",
   "main": "is-plainish-object.mjs",

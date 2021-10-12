@@ -2,7 +2,6 @@
 const ObjectPrototype = Object.prototype;
 
 const getPrototypeOf = Object.getPrototypeOf;
-const getOwnPropertyNames = Object.getOwnPropertyNames;
 
 const toStringCat = Function.prototype.call.bind(ObjectPrototype.toString);
 
@@ -50,7 +49,7 @@ export function isPlainishObject(obj) {
             return result;
         }
 
-        const protoProps = getOwnPropertyNames(directProto);
+        const protoProps = Reflect.ownKeys(directProto);
 
         result = (protoProps.length === 1) && (protoProps[0] === 'constructor');
 
